@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/header";
 import { StyledMainDiv } from "../../components/mainDiv";
 import Sidebar from "../../components/sidebar";
 
 const HomePage = () => {
+  
   return (
     <>
       <Header />
@@ -21,7 +22,7 @@ const HomePage = () => {
         </p>
         <button
           style={{
-            marginTop: '32px',
+            marginTop: "32px",
             height: "40px",
             width: "178px",
             backgroundColor: "#ffd700",
