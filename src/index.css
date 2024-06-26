@@ -8,6 +8,7 @@ body {
   background-image: url("images/bg_img.jpg");
   background-size: cover;
   background-repeat: repeat;
+  width: fit-content;
 }
 
 code {
