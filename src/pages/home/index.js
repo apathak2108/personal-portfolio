@@ -31,7 +31,7 @@ const HomePage = () => {
             fontSize: "16px",
             fontWeight: "600",
             letterSpacing: "2px",
-            cursor: "poiner",
+            cursor: "pointer",
             boxShadow:
               "-6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2)",
           }}
