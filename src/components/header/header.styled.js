@@ -30,3 +30,8 @@ export const StyledHeaderRightPortion = styled.div`
   letter-spacing: 1px;
   font-size: 16px;
 `;
+
+export const StyledAnchor = styled.a`
+  text-decoration: none;
+  color: #000;
+`;
