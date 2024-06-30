@@ -42,15 +42,3 @@ const Header = () => {
 
 export default Header;
 
-
-// top: 35px;
-//     position: absolute;
-//     background-color: darkcyan;
-//     height: 25%;
-//     width: 50%;
-//     right: 0px;
-//     display: flex;
-//     flex-flow: column;
-//     gap: 20px;
-//     justify-content: center;
-//     align-items: center;
