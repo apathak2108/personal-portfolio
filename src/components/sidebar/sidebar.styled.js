@@ -8,5 +8,16 @@ export const StyledSidebar = styled.div`
   transform: translateY(-50%);
   background-color: #fff;
   padding: 12px;
-  gap: 18px;
+  gap: 1.25rem;
+
+  @media (max-width: 710px) {
+    flex-flow: row;
+    top: 90%;
+  }
+`;
+
+export const StyledIcon = styled.img`
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
 `;

@@ -7,31 +7,51 @@ export const StyledHeader = styled.div`
   align-items: center;
   background-color: #f4f4f4;
   top: 0;
-  position: sticky;
+  position: fixed;
   justify-content: space-between;
+`;
+
+export const StyledImage = styled.img`
+  height: 60px;
 `;
 
 export const StyledHeaderLeftPortion = styled.div`
   display: flex;
   align-items: center;
   letter-spacing: 2px;
-  margin-left: 18px;
+  margin-left: 1.125rem;
   font-weight: 600;
-  font-size: 18px;
-  gap: 10px;
+  font-size: 1.125rem;
+  gap: 0.625rem;
 `;
 
 export const StyledHeaderRightPortion = styled.div`
+  height: 100%;
   display: flex;
-  gap: 40px;
-  margin-right: 40px;
+  align-items: center;
+  gap: 2.5rem;
+  margin-right: 2.5rem;
   align-items: center;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 1rem;
+  width: 35%;
+  gap: 10px;
+  justify-content: space-evenly;
+  min-width: 320px;
 `;
 
-export const StyledAnchor = styled.a`
-  text-decoration: none;
-  color: #000;
+export const StyledTitle = styled.span`
+  height: 100%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: ${(props) => (props.isActive ? "4px solid grey" : "none")};
+
+  &:hover {  
+    border-bottom: 4px solid grey;
+  }
 `;
