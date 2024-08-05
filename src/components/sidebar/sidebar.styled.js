@@ -9,10 +9,10 @@ export const StyledSidebar = styled.div`
   background-color: #fff;
   padding: 12px;
   gap: 1.25rem;
+  border-radius: 4px;
 
   @media (max-width: 710px) {
-    flex-flow: row;
-    top: 90%;
+    display: none;
   }
 `;
 

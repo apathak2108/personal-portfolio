@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const StyledHeader = styled.div`
   height: 68px;
   width: 100%;
+  padding: 8px 0;
   display: flex;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: #fff;
   top: 0;
   position: fixed;
   justify-content: space-between;

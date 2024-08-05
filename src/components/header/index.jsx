@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProfilePic from "../../images/profile_pic.png";
+import ProfilePic from "../../assets/profile_pic.png";
 import {
   StyledHeader,
   StyledHeaderLeftPortion,
@@ -8,13 +8,16 @@ import {
   StyledTitle,
 } from "./header.styled";
 import { HEADER_TITLES, STRINGS } from "../../constants";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   const titles = Object.values(HEADER_TITLES);
   const [activeTitle, setActiveTitle] = useState(titles[0]);
-
   const handleTitleClick = (title) => {
+    const navigateToPage = `/${title.toLowerCase()}`;
     setActiveTitle(title);
+    navigate(navigateToPage, { replace: true });
   };
 
   return (

@@ -1,6 +1,6 @@
 export const STRINGS = {
   NAME: "ANANYA\u00A0PATHAK",
-  HOME_HEADING: "HEY, I'M ANANYA PATHAK",
+  HOME_HEADING: "HEY, I'M ",
   HOME_TEXT:
     "A Frontend Web Developer specializing in crafting dynamic and engaging user interfaces for websites and web applications, driving the success of the overall product.",
 };
