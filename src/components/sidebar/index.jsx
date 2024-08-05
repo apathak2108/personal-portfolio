@@ -11,6 +11,7 @@ const Sidebar = () => {
       {icons.map((icon) => {
         return (
           <StyledIcon
+            title="LinkedIn"
             src={icon.src}
             onClick={() => handleRedirection(icon.url)}
           />

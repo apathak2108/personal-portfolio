@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledLayout } from "./layout.styled";
+import { StyledLayout, StyledLayoutContainer } from "./layout.styled";
 import Header from "../header";
 import Sidebar from "../sidebar";
 
@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
     <StyledLayout>
       <Header />
       <Sidebar />
+      <StyledLayoutContainer>{children}</StyledLayoutContainer>
     </StyledLayout>
   );
 };
